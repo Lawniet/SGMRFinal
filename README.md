@@ -46,3 +46,5 @@ Versão jogável:
 Documentação: [Drive de SGMR](https://drive.google.com/drive/folders/0B4Jrwbi8IaMCOGJRU0x5OHF2RDg?usp=sharing)
 
 Ingressar na equipe Dev: [Team Dev SGMR no Repl.it](https://repl.it/teams/join/ctwpskrrfslhgiqlmovgudkgjthaotbk-SGMR)
+
+Análise de repositório Codacy: [![Codacy Badge](https://app.codacy.com/project/badge/Grade/4b767f9782c5470585bb555f0b5483cd)](https://www.codacy.com/gh/Lawniet/SGMRFinal/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Lawniet/SGMRFinal&amp;utm_campaign=Badge_Grade)
