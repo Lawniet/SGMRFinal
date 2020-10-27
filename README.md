@@ -2,6 +2,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Running on Repl.it
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/9409853910f140d5a2911afd294f6967)](https://app.codacy.com/gh/Lawniet/SGMRFinal?utm_source=github.com&utm_medium=referral&utm_content=Lawniet/SGMRFinal&utm_campaign=Badge_Grade)
+
 Simply hit run once and start coding. Will hot reload the web view. 
 
 ## Running Scripts
