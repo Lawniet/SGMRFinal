@@ -9,10 +9,12 @@ import 'primeicons/primeicons.css';
 
 import { Button } from 'primereact/button';
 
-/*function App() {
+function App() {
   return (
-
+<div style={{ textAlign: "center" }}>
+    <h1>Hello World</h1>
+   </div>
   );
-}*/
+}
 
 export default App;

@@ -1,1 +1,11 @@
-import React, { Component } from 'react';
+
+
+
+function Game() {
+  return (
+
+
+  );
+}
+
+export default Game;
