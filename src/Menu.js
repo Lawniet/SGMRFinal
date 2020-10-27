@@ -21,6 +21,7 @@ function Menu() {
         <Button label="Cadastrar" />
         <br/>
         <Button label="Jogar" />
+
  
       </header>
     </div>
