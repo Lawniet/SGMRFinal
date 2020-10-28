@@ -19,7 +19,7 @@ function About() {
       <img src={logo} className="Icon-logo" alt="logo" />
       <br/><br/><br/>
       <p>
-        O Snake's Game Minimalist Rereading, ou simplesmente SGMR é um jogo de releitura no estilo clássico de aventura em terceira pessoa, ambientado em um cenário 2D. Esta versão possui estilo minimalista com cores vívidas e tema juvenil. O jogo foi inspirado no clássico e icônico 'Snake game', produzido pela Nokia. Para maiores informações acesse o repositório:
+        O Snake's Game Minimalist Rereading, ou simplesmente SGMR é um jogo de releitura no estilo clássico de aventura em terceira pessoa, ambientado em um cenário 2D. Esta versão possui estilo minimalista com cores vívidas e tema juvenil. O jogo foi inspirado no clássico e icônico 'Snake game'. Especialmente desenvolvido para os nostálgicos fãs de Nokia Snake Game, para que este não faça parte apenas do passado, mas que possa ter sua releitura no presente. Para maiores informações acesse o repositório:
       </p>
         <img src={qrcode} className="App-logo" alt="logo" />
         <br/>

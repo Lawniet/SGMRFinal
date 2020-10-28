@@ -23,6 +23,7 @@ function Menu() {
          <Link className="LinkButton" to="/cadastro"><Button label="Cadastrar" /></Link>
         <br/>
          <Link className="LinkButton" to="/jogar"><Button label="Jogar" /></Link>
+          <br/>
         <p>
           <Link className="LinkButton" to="/about"><Button label="Sobre" /></Link>
         </p>

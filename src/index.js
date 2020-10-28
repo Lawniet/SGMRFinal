@@ -17,6 +17,7 @@ import './index.css';
 import Menu from './Menu';
 import About from './About';
 import Cadastro from './Cadastro';
+
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
 
