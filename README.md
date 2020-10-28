@@ -1,7 +1,7 @@
 # Sistemas-Multimídia 
 
+![APM](https://img.shields.io/apm/l/REact?label=React&logo=react)
 [![Run on Repl.it](https://repl.it/badge/github/Lawniet/Sistemas-Multimidia)](https://repl.it/github/Lawniet/Sistemas-Multimidia)
-
  [![Codacy Badge](https://app.codacy.com/project/badge/Grade/4b767f9782c5470585bb555f0b5483cd)](https://www.codacy.com/gh/Lawniet/SGMRFinal/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Lawniet/SGMRFinal&amp;utm_campaign=Badge_Grade)
 
 
