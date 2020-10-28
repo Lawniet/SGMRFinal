@@ -1,7 +1,9 @@
 
-import React, { Component } from'react';
+import React from 'react';
 import logo from './icon.png';
 import GoogleBtn from './GoogleBtn';
+import { Link } from 'react-router-dom';
+
 import './App.css';
 
 import 'primereact/resources/themes/saga-blue/theme.css';
@@ -18,14 +20,17 @@ function Menu() {
         <br/>
         <GoogleBtn/>
         <br/>
-        <Button label="Cadastrar" />
+         <Link className="LinkButton" to="/cadastro"><Button label="Cadastrar" /></Link>
         <br/>
-        <Button label="Jogar" />
-
- 
+         <Link className="LinkButton" to="/jogar"><Button label="Jogar" /></Link>
+        <p>
+          <Link className="LinkButton" to="/about"><Button label="Sobre" /></Link>
+        </p>
       </header>
     </div>
   );
 }
 
 export default Menu;
+
+//<Route path="/" exact={true} component={Cadastro} />

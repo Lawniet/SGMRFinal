@@ -7,6 +7,17 @@
   pointer-events: none;
 }
 
+.Icon-logo {
+  height: 20vmin;
+  pointer-events: none;
+ position: fixed;
+ top: 15%;
+ left: 0;
+ margin-top: -50px;
+ margin-bottom: 50px;
+}
+
+
 /*@media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -35,4 +46,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+ 
+.LinkButton {
+  text-decoration:none;
 }
