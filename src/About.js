@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './icon.png';
-import qrcode from './QRCode.png';
+import qrcode from './QR_Code.png';
 import './App.css';
 import { Link } from 'react-router-dom';
 
@@ -21,6 +21,7 @@ function About() {
       <p>
         O Snake's Game Minimalist Rereading, ou simplesmente SGMR é um jogo de releitura no estilo clássico de aventura em terceira pessoa, ambientado em um cenário 2D. Esta versão possui estilo minimalista com cores vívidas e tema juvenil. O jogo foi inspirado no clássico e icônico 'Snake game'. Especialmente desenvolvido para os nostálgicos fãs de Nokia Snake Game, para que este não faça parte apenas do passado, mas que possa ter sua releitura no presente. Para maiores informações acesse o repositório:
       </p>
+      <br/>
         <img src={qrcode} className="App-logo" alt="logo" />
         <br/>
         <Link className="LinkButton" to="/"><Button label="Voltar ao menu" /></Link>
