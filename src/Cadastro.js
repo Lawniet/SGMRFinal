@@ -2,10 +2,7 @@ import React from 'react';
 import './Cadastro.css';
 
 const cad = () => {
-  
-
   return (
-    
     <div>
       <form action = '/jogar' component={() => { 
      window.location.href = 'https://sgmr.herokuapp.com/'; 

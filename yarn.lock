@@ -2572,6 +2572,13 @@ bindings@^1.5.0:
   dependencies:
     file-uri-to-path "1.0.0"
 
+biskviit@1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/biskviit/-/biskviit-1.0.1.tgz#037a0cd4b71b9e331fd90a1122de17dc49e420a7"
+  integrity sha1-A3oM1LcbnjMf2QoRIt4X3EnkIKc=
+  dependencies:
+    psl "^1.1.7"
+
 bluebird@^3.5.5:
   version "3.7.2"
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.7.2.tgz#9f229c15be272454ffa973ace0dbee79a1b0c36f"
@@ -4183,6 +4190,13 @@ encodeurl@~1.0.2:
   resolved "https://registry.yarnpkg.com/encodeurl/-/encodeurl-1.0.2.tgz#ad3ff4c86ec2d029322f5a02c3a9a606c95b3f59"
   integrity sha1-rT/0yG7C0CkyL1oCw6mmBslbP1k=
 
+encoding@0.1.12:
+  version "0.1.12"
+  resolved "https://registry.yarnpkg.com/encoding/-/encoding-0.1.12.tgz#538b66f3ee62cd1ab51ec323829d1f9480c74beb"
+  integrity sha1-U4tm8+5izRq1HsMjgp0flIDHS+s=
+  dependencies:
+    iconv-lite "~0.4.13"
+
 end-of-stream@^1.0.0, end-of-stream@^1.1.0:
   version "1.4.4"
   resolved "https://registry.yarnpkg.com/end-of-stream/-/end-of-stream-1.4.4.tgz#5ae64a5f45057baf3626ec14da0ca5e4b2431eb0"
@@ -4795,6 +4809,14 @@ fb-watchman@^2.0.0:
   integrity sha512-DkPJKQeY6kKwmuMretBhr7G6Vodr7bFwDYTXIkfG1gjvNpaxBTQV3PbXg6bR1c1UP4jPOX0jHUbbHANL9vRjVg==
   dependencies:
     bser "2.1.1"
+
+fetch@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/fetch/-/fetch-1.1.0.tgz#0a8279f06be37f9f0ebb567560a30a480da59a2e"
+  integrity sha1-CoJ58Gvjf58Ou1Z1YKMKSA2lmi4=
+  dependencies:
+    biskviit "1.0.1"
+    encoding "0.1.12"
 
 figgy-pudding@^3.5.1:
   version "3.5.2"
@@ -5569,7 +5591,7 @@ https-browserify@^1.0.0:
   resolved "https://registry.yarnpkg.com/https-browserify/-/https-browserify-1.0.0.tgz#ec06c10e0a34c0f2faf199f7fd7fc78fffd03c73"
   integrity sha1-7AbBDgo0wPL68Zn3/X/Hj//QPHM=
 
-iconv-lite@0.4.24, iconv-lite@^0.4.24:
+iconv-lite@0.4.24, iconv-lite@^0.4.24, iconv-lite@~0.4.13:
   version "0.4.24"
   resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.24.tgz#2022b4b25fbddc21d2f524974a474aafe733908b"
   integrity sha512-v3MXnZAcvnywkTUEZomIActle7RXXeedOR31wwl7VlyoXO4Qi9arvSenNQWne1TcRwhCL1HwLI21bEqdpj8/rA==
@@ -7006,6 +7028,11 @@ lodash.memoize@^4.1.2:
   resolved "https://registry.yarnpkg.com/lodash.memoize/-/lodash.memoize-4.1.2.tgz#bcc6c49a42a2840ed997f323eada5ecd182e0bfe"
   integrity sha1-vMbEmkKihA7Zl/Mj6tpezRguC/4=
 
+lodash.pick@^4.4.0:
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/lodash.pick/-/lodash.pick-4.4.0.tgz#52f05610fff9ded422611441ed1fc123a03001b3"
+  integrity sha1-UvBWEP/53tQiYRRB7R/BI6AwAbM=
+
 lodash.sortby@^4.7.0:
   version "4.7.0"
   resolved "https://registry.yarnpkg.com/lodash.sortby/-/lodash.sortby-4.7.0.tgz#edd14c824e2cc9c1e0b0a1b42bb5210516a42438"
@@ -7389,6 +7416,11 @@ morgan@^1.9.1:
     on-finished "~2.3.0"
     on-headers "~1.0.2"
 
+mousetrap@^1.6.0:
+  version "1.6.5"
+  resolved "https://registry.yarnpkg.com/mousetrap/-/mousetrap-1.6.5.tgz#8a766d8c272b08393d5f56074e0b5ec183485bf9"
+  integrity sha512-QNo4kEepaIBwiT8CDhP98umTetp+JNfQYBWvC1pc6/OAibuXtRcxZ58Qz8skvEHYvURne/7R8T5VoOI7rDsEUA==
+
 move-concurrently@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/move-concurrently/-/move-concurrently-1.0.1.tgz#be2c005fda32e0b29af1f05d7c4b33214c701f92"
@@ -7502,6 +7534,11 @@ node-bin-setup@^1.0.0:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/node-bin-setup/-/node-bin-setup-1.0.6.tgz#4b5c9bb937ece702d7069b36ca78af4684677528"
   integrity sha512-uPIxXNis1CRbv1DwqAxkgBk5NFV3s7cMN/Gf556jSw6jBvV7ca4F9lRL/8cALcZecRibeqU+5dFYqFFmzv5a0Q==
+
+node-fetch@^2.6.1:
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
+  integrity sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==
 
 node-forge@^0.10.0:
   version "0.10.0"
@@ -9013,7 +9050,7 @@ prompts@^2.0.1:
     kleur "^3.0.3"
     sisteransi "^1.0.5"
 
-prop-types@^15.6.0, prop-types@^15.6.2, prop-types@^15.7.2:
+prop-types@^15.0.0, prop-types@^15.6.0, prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
@@ -9035,7 +9072,7 @@ prr@~1.0.1:
   resolved "https://registry.yarnpkg.com/prr/-/prr-1.0.1.tgz#d3fc114ba06995a45ec6893f484ceb1d78f5f476"
   integrity sha1-0/wRS6BplaRexok/SEzrHXj19HY=
 
-psl@^1.1.28:
+psl@^1.1.28, psl@^1.1.7:
   version "1.8.0"
   resolved "https://registry.yarnpkg.com/psl/-/psl-1.8.0.tgz#9326f8bcfb013adcc005fdff056acce020e51c24"
   integrity sha512-RIdOzyoavK+hA18OGGWDqUTsCLhtA7IcZ/6NCs4fFJaHBDab+pDDmDIByWFRQJq2Cd7r1OoQxBGKOaztq+hjIQ==
@@ -9216,6 +9253,11 @@ react-app-polyfill@^1.0.4:
     raf "^3.4.1"
     regenerator-runtime "^0.13.3"
     whatwg-fetch "^3.0.0"
+
+react-bootstrap-sweetalert@^5.2.0:
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/react-bootstrap-sweetalert/-/react-bootstrap-sweetalert-5.2.0.tgz#a58bc9fa863eaf518a78b6d0716a25f32182d570"
+  integrity sha512-7eaKHgDcYfoRUxiYPZuHjygeLa3yDycGWB+Xwr+PWo6h0HDixwfgGXqWBmDYXI4ZQ453BcY77iBWBZhRbnH/6g==
 
 react-dev-utils@^9.1.0:
   version "9.1.0"
@@ -10629,6 +10671,22 @@ svgo@^1.0.0, svgo@^1.2.2:
     unquote "~1.1.1"
     util.promisify "~1.0.0"
 
+sweetalert2-react@^0.8.3:
+  version "0.8.3"
+  resolved "https://registry.yarnpkg.com/sweetalert2-react/-/sweetalert2-react-0.8.3.tgz#4d4eaf5de807cb8d229edcaa0d7d3f711c36f5b3"
+  integrity sha512-l960IJWHE6BHDEImcn//thzQOY9moVccf6xgg42HDyLwpU/2wLvv9P82fD0sQn0WGAUwbjDz3Xfuj9oQI4iFzQ==
+  dependencies:
+    lodash.pick "^4.4.0"
+    mousetrap "^1.6.0"
+    prop-types "^15.0.0"
+    sweetalert2 "^8.5.0"
+    warning "^4.0.3"
+
+sweetalert2@^8.5.0:
+  version "8.19.0"
+  resolved "https://registry.yarnpkg.com/sweetalert2/-/sweetalert2-8.19.0.tgz#692269bc8ddc5760e2b5070da2cf5e9e278bac0b"
+  integrity sha512-nFL++N3bitkEkd487Tv4i5ZxusmnoAAXHjtk7lp603Opxb8wlvVnz3hqa7qiIw6QFL04JC810E6qVQNf8s0vYQ==
+
 symbol-tree@^3.2.2:
   version "3.2.4"
   resolved "https://registry.yarnpkg.com/symbol-tree/-/symbol-tree-3.2.4.tgz#430637d248ba77e078883951fb9aa0eed7c63fa2"
@@ -11219,6 +11277,13 @@ walker@^1.0.7, walker@~1.0.5:
   integrity sha1-L3+bj9ENZ3JisYqITijRlhjgKPs=
   dependencies:
     makeerror "1.0.x"
+
+warning@^4.0.3:
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/warning/-/warning-4.0.3.tgz#16e9e077eb8a86d6af7d64aa1e05fd85b4678ca3"
+  integrity sha512-rpJyN222KWIvHJ/F53XSZv0Zl/accqHR8et1kpaMTD/fLCRxtV8iX8czMzY7sVZupTI3zcUTg8eycS2kNF9l6w==
+  dependencies:
+    loose-envify "^1.0.0"
 
 watchpack-chokidar2@^2.0.0:
   version "2.0.0"
