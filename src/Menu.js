@@ -3,7 +3,6 @@ import React from 'react';
 import logo from './icon.png';
 import GoogleBtn from './GoogleBtn';
 import { Link } from 'react-router-dom';
-import SweetAlert from 'sweetalert2-react';
 
 import './App.css';
 
