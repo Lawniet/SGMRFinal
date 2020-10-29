@@ -14,12 +14,13 @@ import { Button } from 'primereact/button';
 
 const fetch = require('node-fetch');
 let radn = Math.floor(Math.random() * 5);
+let name;
 
 // Requisição ao My JSON Server
 fetch('https://my-json-server.typicode.com/Lawniet/SnakeDataset/FakeNames')
     .then(res => res.json())
     .then(json => {
-       let name =  json[radn].title;
+       name =  json[radn].title;
        document.getElementById("welcome").innerHTML = "Bem vindo(a): "+ name +". Deseja mudar o apelido? Realize o Login ou cadastro."; })
 
 function Menu() {
@@ -28,17 +29,17 @@ function Menu() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <br/>
-        <h4 id="welcome"></h4>
+        <h5 id="welcome"></h5>
         <br/>
         <GoogleBtn/>
-        <br/>
-         <Link className="LinkButton" to="/cadastro"><Button label="Cadastrar" /></Link>
         <br/>
          <Link className="LinkButton" to="/jogar"><Button label="Jogar" /></Link>
           <br/>
         <p>
           <Link className="LinkButton" to="/about"><Button label="Sobre" /></Link>
         </p>
+        <br/>
+         <Link className="LinkButton" to="/cadastro"><Button label="Cadastrar" /></Link>
       </header>
     </div>
   );

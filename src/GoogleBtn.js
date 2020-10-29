@@ -47,7 +47,7 @@ class GoogleBtn extends Component {
   render() {
     return (
     <div>
-     { this.state.accessToken ? <h5>Logado como: <br/><br/> { this.state.accessToken }</h5> : null }
+          { this.state.accessToken ? <h5>Logado como: <br/><br/> { this.state.accessToken }</h5> : null }
       { this.state.isLogined ?
         <GoogleLogout
           clientId={ CLIENT_ID }
